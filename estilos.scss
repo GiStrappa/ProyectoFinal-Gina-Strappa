@@ -1,0 +1,14 @@
+// Variables
+$color-primario: #ff0000;
+$color-secundario: #00ff00;
+
+// Estilos de Componentes
+.componente {
+  background-color: $color-primario;
+  color: $color-secundario;
+}
+
+// Estilos Globales
+body {
+  font-family: Arial, sans-serif;
+}
