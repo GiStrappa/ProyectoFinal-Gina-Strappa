@@ -232,5 +232,17 @@ div .form-group {
 @media screen and (min-width:993px){
   .pl-0 {
     padding-left: 0;
+  }/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  /* Agrega aquí los estilos específicos para dispositivos móviles */
+  body {
+    font-size: 14px;
   }
+}
+
+/* Estilos para escritorio */
+@media only screen and (min-width: 601px) {
+  /* Agrega aquí los estilos específicos para escritorio */
+  body {
+    font-size: 16px;
 }
