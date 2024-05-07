@@ -1,14 +1,20 @@
 // Variables
 $color-primario: #ff0000;
-$color-secundario: #00ff00;
+$color-fondo: #f0f0f0;
 
-// Estilos de Componentes
-.componente {
-  background-color: $color-primario;
-  color: $color-secundario;
+// Estilos generales
+body {
+    font-family: Arial, sans-serif;
+    background-color: $color-fondo;
+    color: $color-primario;
 }
 
-// Estilos Globales
-body {
-  font-family: Arial, sans-serif;
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
 }
