@@ -18,3 +18,23 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
+// Variables
+$color-primario: #ff0000;
+$color-fondo: #f0f0f0;
+
+// Estilos generales
+body {
+    font-family: Arial, sans-serif;
+    background-color: $color-fondo;
+    color: $color-primario;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
